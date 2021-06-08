@@ -315,147 +315,88 @@ class CalibrationShapes(QObject, Extension):
         # addShape
         self._addShape("BedLevelCalibration",self._toMeshData(mesh))
         
-    def addCalibrationCube(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "CalibrationCube.stl")
+            
+    def _registerShapeStl(self, mesh_name, mesh_filename=None, **kwargs) -> None:
+        if mesh_filename is None:
+            mesh_filename = f"{mesh_name}.stl"
+        
+        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", mesh_filename)
         mesh =  trimesh.load(model_definition_path)
         # addShape
-        self._addShape("CalibrationCube",self._toMeshData(mesh))
+        self._addShape(mesh_name,self._toMeshData(mesh), **kwargs)
+        
+    def addCalibrationCube(self) -> None:
+        self._registerShapeStl("CalibrationCube")
 
     def addMultiCube(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "MultiCube.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("MultiCube",self._toMeshData(mesh))
+        self._registerShapeStl("MultiCube")
 
     def addJunctionDeviationTower(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "JunctionDeviationTower.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("JunctionDeviationTower",self._toMeshData(mesh)) 
+        self._registerShapeStl("JunctionDeviationTower")
     
     def addPLATempTower(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "TempTowerPLA.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("PLATempTower",self._toMeshData(mesh))
+        self._registerShapeStl("PLATempTower", "TempTowerPLA.stl")
         self._checkAdaptativ(False)
 
     def addPLATempTowerSimple(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "TempTowerPLA190°C.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("PLATempTower",self._toMeshData(mesh))
+        self._registerShapeStl("PLATempTower", "TempTowerPLA190°C.stl")
         self._checkAdaptativ(False)
 
     def addPLAPlusTempTower(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "TempTowerPLA+.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("PLA+TempTower",self._toMeshData(mesh))
+        self._registerShapeStl("PLA+TempTower", "TempTowerPLA+.stl")
         self._checkAdaptativ(False)
         
     def addPETGTempTower(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "TempTowerPETG.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("PETGTempTower",self._toMeshData(mesh))
+        self._registerShapeStl("PETGTempTower", "TempTowerPETG.stl")
         self._checkAdaptativ(False)
         
     def addABSTempTower(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "TempTowerABS.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("ABSTempTower",self._toMeshData(mesh))
+        self._registerShapeStl("ABSTempTower", "TempTowerABS.stl")
         self._checkAdaptativ(False)
 
     def addRetractTower(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "RetractTower.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("RetractTower",self._toMeshData(mesh))
+        self._registerShapeStl("RetractTower")
         self._checkAdaptativ(False)
         
     def addRetractTest(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "RetractTest.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("RetractTest",self._toMeshData(mesh))
+        self._registerShapeStl("RetractTest")
         
     def addBridgeTest(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "BridgeTest.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("BridgeTest",self._toMeshData(mesh))
+        self._registerShapeStl("BridgeTest")
 
     def addThinWall(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "ThinWall.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("ThinWall",self._toMeshData(mesh))
+        self._registerShapeStl("ThinWall")
  
     def addOverhangTest(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "Overhang.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("OverhangTest",self._toMeshData(mesh))
+        self._registerShapeStl("OverhangTest", "Overhang.stl")
  
     def addFlowTest(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "FlowTest.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("FlowTest",self._toMeshData(mesh))
+        self._registerShapeStl("FlowTest", "FlowTest.stl")
 
     def addHoleTest(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "HoleTest.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("FlowTest",self._toMeshData(mesh))
+        self._registerShapeStl("FlowTest", "HoleTest.stl")
 
     def addTolerance(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "Tolerance.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("Tolerance",self._toMeshData(mesh))
+        self._registerShapeStl("Tolerance")
 
     # Dotdash addition - for Linear/Pressure advance
     def addPressureAdvTower(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "PressureAdvTower.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("PressureAdv",self._toMeshData(mesh))
+        self._registerShapeStl("PressureAdv", "PressureAdvTower.stl")
 
     #-----------------------------
     #   Dual Extruder 
     #----------------------------- 
     def addCubeBiColor(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "CubeBiColorWhite.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("CubeBiColorExt1",self._toMeshData(mesh),1)
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "CubeBiColorRed.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("CubeBiColorExt2",self._toMeshData(mesh),2)
+        self._registerShapeStl("CubeBiColorExt1", "CubeBiColorWhite.stl", ext_pos=1)
+        self._registerShapeStl("CubeBiColorExt2", "CubeBiColorRed.stl", ext_pos=2)
 
     def addHollowCalibrationCube(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "HollowCalibrationCube.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("CubeBiColorExt",self._toMeshData(mesh),1)
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "HollowCenterCube.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("CubeBiColorInt",self._toMeshData(mesh),2)
+        self._registerShapeStl("CubeBiColorExt", "HollowCalibrationCube.stl", ext_pos=1)
+        self._registerShapeStl("CubeBiColorInt", "HollowCenterCube.stl", ext_pos=2)
         
     def addExtruderOffsetCalibration(self) -> None:
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "nozzle-to-nozzle-xy-offset-calibration-pattern-a.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("CalibrationMultiExtruder1",self._toMeshData(mesh),1)
-        model_definition_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "nozzle-to-nozzle-xy-offset-calibration-pattern-b.stl")
-        mesh =  trimesh.load(model_definition_path)
-        # addShape
-        self._addShape("CalibrationMultiExtruder1",self._toMeshData(mesh),2)
+        self._registerShapeStl("CalibrationMultiExtruder1", "nozzle-to-nozzle-xy-offset-calibration-pattern-a.stl", ext_pos=1)
+        self._registerShapeStl("CalibrationMultiExtruder1", "nozzle-to-nozzle-xy-offset-calibration-pattern-b.stl", ext_pos=2)
 
     #-----------------------------
     #   Standard Geometry  
@@ -542,7 +483,7 @@ class CalibrationShapes(QObject, Extension):
 
         mesh_data = MeshData(vertices=vertices, indices=indices, normals=normals)
 
-        return mesh_data
+        return mesh_data        
         
     # Initial Source code from  fieldOfView
     # https://github.com/fieldOfView/Cura-SimpleShapes/blob/bac9133a2ddfbf1ca6a3c27aca1cfdd26e847221/SimpleShapes.py#L70
