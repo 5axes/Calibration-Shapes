@@ -48,7 +48,7 @@ class TempFanTower(Script):
                 "temperaturechange":
                 {
                     "label": "Temperature Increment",
-                    "description": "The temperature change of each block, can be positive or negative. I you want 220 and then 210, you need to set this to -10",
+                    "description": "The temperature change of each block, can be positive or negative. If you want 220 and then 210, you need to set this to -10",
                     "type": "int",
                     "default_value": -5,
                     "minimum_value": -100,
