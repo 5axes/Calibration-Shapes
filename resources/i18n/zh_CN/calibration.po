@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Calibration Shape package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Calibration Shape\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-13 23:52+0000\n"
+"PO-Revision-Date: 2023-05-06 09:14+0800\n"
+"Last-Translator: \n"
+"Language-Team: NingJiaZun\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: CalibrationShapes.py:180
+msgctxt "@item:inmenu"
+msgid "Part for calibration"
+msgstr "校准部件"
+
+#: CalibrationShapes.py:181
+msgctxt "@item:inmenu"
+msgid "Add a cube"
+msgstr "添加立方体"
+
+#: CalibrationShapes.py:182
+msgctxt "@item:inmenu"
+msgid "Add a cylinder"
+msgstr "添加一个圆柱"
+
+#: CalibrationShapes.py:183
+msgctxt "@item:inmenu"
+msgid "Add a sphere"
+msgstr "添加球体"
+
+#: CalibrationShapes.py:184
+msgctxt "@item:inmenu"
+msgid "Add a tube"
+msgstr "添加圆管"
+
+#: CalibrationShapes.py:186
+msgctxt "@item:inmenu"
+msgid "Add a Calibration Cube"
+msgstr "添加校准立方体"
+
+#: CalibrationShapes.py:187
+msgctxt "@item:inmenu"
+msgid "Add a PLA TempTower"
+msgstr "添加 PLA 温度塔"
+
+#: CalibrationShapes.py:188
+msgctxt "@item:inmenu"
+msgid "Add a PLA TempTower 190°C"
+msgstr "添加 PLA 温度塔 190°C"
+
+#: CalibrationShapes.py:189
+msgctxt "@item:inmenu"
+msgid "Add a PLA+ TempTower"
+msgstr "添加 PLA+ 温度塔"
+
+#: CalibrationShapes.py:190
+msgctxt "@item:inmenu"
+msgid "Add a PETG TempTower"
+msgstr "添加 PETG 温度塔"
+
+#: CalibrationShapes.py:191
+msgctxt "@item:inmenu"
+msgid "Add an ABS TempTower"
+msgstr "添加 ABS 温度塔"
+
+#: CalibrationShapes.py:192
+msgctxt "@item:inmenu"
+msgid "Add a PC TempTower"
+msgstr "添加 PC 温度塔"
+
+#: CalibrationShapes.py:193
+msgctxt "@item:inmenu"
+msgid "Add a Retract Tower"
+msgstr "添加回抽塔"
+
+#: CalibrationShapes.py:194
+msgctxt "@item:inmenu"
+msgid "Add an Acceleration Tower"
+msgstr "添加加速度塔"
+
+#: CalibrationShapes.py:196
+msgctxt "@item:inmenu"
+msgid "Add a Retract Test"
+msgstr "添加回抽测试"
+
+#: CalibrationShapes.py:197
+msgctxt "@item:inmenu"
+msgid "Add a XY Calibration Test"
+msgstr "添加 XY 校准测试"
+
+#: CalibrationShapes.py:198
+msgctxt "@item:inmenu"
+msgid "Add a Dimensional Accuracy Test"
+msgstr "添加尺寸精度测试"
+
+#: CalibrationShapes.py:199
+msgctxt "@item:inmenu"
+msgid "Add a Tolerance Test"
+msgstr "添加公差测试"
+
+#: CalibrationShapes.py:200
+msgctxt "@item:inmenu"
+msgid "Add a Hole Test"
+msgstr "添加孔测试"
+
+#: CalibrationShapes.py:203
+msgctxt "@item:inmenu"
+msgid "Add a Bridge Test"
+msgstr "添加桥接测试"
+
+#: CalibrationShapes.py:204
+msgctxt "@item:inmenu"
+msgid "Add a Thin Wall Test"
+msgstr "添加薄壁测试"
+
+#: CalibrationShapes.py:206
+msgctxt "@item:inmenu"
+msgid "Add an Overhang Test"
+msgstr "添加悬垂测试"
+
+#: CalibrationShapes.py:207
+msgctxt "@item:inmenu"
+msgid "Add a FlowTower Test"
+msgstr "添加流量塔测试"
+
+#: CalibrationShapes.py:208
+msgctxt "@item:inmenu"
+msgid "Add a Flow Test"
+msgstr "添加流量测试"
+
+#: CalibrationShapes.py:209
+msgctxt "@item:inmenu"
+msgid "Add a Max Flow Test"
+msgstr "添加最大流量测试"
+
+#: CalibrationShapes.py:210
+msgctxt "@item:inmenu"
+msgid "Add a Multi-Flow Test"
+msgstr "添加多个流量测试"
+
+#: CalibrationShapes.py:213
+msgctxt "@item:inmenu"
+msgid "Add a Support Test"
+msgstr "添加支撑测试"
+
+#: CalibrationShapes.py:214
+msgctxt "@item:inmenu"
+msgid "Add a Lithophane Test"
+msgstr "添加 lithophanemaker.com 测试"
+
+#: CalibrationShapes.py:217
+msgctxt "@item:inmenu"
+msgid "Add a Bed Level Calibration"
+msgstr "添加热床调平校准"
+
+#: CalibrationShapes.py:218
+msgctxt "@item:inmenu"
+msgid "Add a Linear/Pressure Adv Tower"
+msgstr "添加线性/压力提前测试塔"
+
+#: CalibrationShapes.py:220
+msgctxt "@item:inmenu"
+msgid "Add a Cube bi-color"
+msgstr "添加双色立方体"
+
+#: CalibrationShapes.py:221
+msgctxt "@item:inmenu"
+msgid "Add a Bi-Color Calibration Cube"
+msgstr "添加双色校准立方体"
+
+#: CalibrationShapes.py:222
+msgctxt "@item:inmenu"
+msgid "Add an Extruder Offset Calibration Part"
+msgstr "添加挤出机偏移校准部件"
+
+#: CalibrationShapes.py:225
+msgctxt "@item:inmenu"
+msgid "Copy Scripts"
+msgstr "复制到脚本目录"
+
+#: CalibrationShapes.py:226
+msgctxt "@item:inmenu"
+msgid "Define default size"
+msgstr "定义默认大小"
+
+#: CalibrationShapes.py:228
+msgctxt "@item:inmenu"
+msgid "Help"
+msgstr "帮助"
+
+#: CalibrationShapes.py:283
+msgctxt "@info:error"
+msgid "Entered size invalid: "
+msgstr "输入的大小无效： "
+
+#: CalibrationShapes.py:289
+msgctxt "@info:error"
+msgid "Size value must be positive !"
+msgstr "大小值必须为正数！"
+
+#: CalibrationShapes.py:352
+msgctxt "@info:message"
+msgid " script(s) copied in :\n"
+msgstr " 脚本复制于：\n"
+
+#: CalibrationShapes.py:354
+msgctxt "@info:message"
+msgid ""
+"\n"
+"You must now restart Cura to see the scripts in the postprocessing script "
+"list"
+msgstr ""
+"\n"
+"您现在必须重新启动 Cura 才能在后处理脚本列表中的查看脚本"
+
+#: CalibrationShapes.py:356
+msgctxt "@info"
+msgid "Every script are up to date in :\n"
+msgstr "每个脚本都是最新的：\n"
+
+#: CalibrationShapes.py:359 qml/qml_qt5/CalibrationShapes.qml:20
+#: qml/qml_qt6/CalibrationShapes.qml:20
+msgctxt "@title"
+msgid "Calibration Shapes"
+msgstr "校准形状"
+
+#: CalibrationShapes.py:438
+msgctxt "@info:status"
+msgid "Please select one or more models first"
+msgstr "请先选择一个或多个模型"
+
+#: CalibrationShapes.py:631 CalibrationShapes.py:633 CalibrationShapes.py:648
+#: CalibrationShapes.py:650 CalibrationShapes.py:672 CalibrationShapes.py:674
+#: CalibrationShapes.py:748 CalibrationShapes.py:750
+msgctxt "@info:label"
+msgid "! Modification ! in the current profile of : "
+msgstr "！修改！在当前配置文件中： "
+
+#: CalibrationShapes.py:631 CalibrationShapes.py:633 CalibrationShapes.py:648
+#: CalibrationShapes.py:650 CalibrationShapes.py:672 CalibrationShapes.py:674
+#: CalibrationShapes.py:748 CalibrationShapes.py:750 CalibrationShapes.py:759
+#: CalibrationShapes.py:761
+msgctxt "@info:label"
+msgid ""
+"\n"
+"New value :"
+msgstr ""
+"\n"
+"新值："
+
+#: CalibrationShapes.py:631 CalibrationShapes.py:633 CalibrationShapes.py:648
+#: CalibrationShapes.py:650 CalibrationShapes.py:672 CalibrationShapes.py:674
+#: CalibrationShapes.py:748 CalibrationShapes.py:750 CalibrationShapes.py:759
+#: CalibrationShapes.py:761
+msgctxt "@info:title"
+msgid "Warning ! Calibration Shapes"
+msgstr "警告！校准形状"
+
+#: CalibrationShapes.py:699 CalibrationShapes.py:701 CalibrationShapes.py:723
+#: CalibrationShapes.py:725
+msgctxt "@info:label"
+msgid "Individual definition for the calibration part of : "
+msgstr "校准部件自定义： "
+
+#: CalibrationShapes.py:699 CalibrationShapes.py:701
+msgctxt "@info:label"
+msgid ""
+"\n"
+"(machine_nozzle_size>0.4)\n"
+"Set value :"
+msgstr ""
+"\n"
+"(机器喷嘴大小>0.4)\n"
+"设定值："
+
+#: CalibrationShapes.py:699 CalibrationShapes.py:701 CalibrationShapes.py:723
+#: CalibrationShapes.py:725
+msgctxt "@info:title"
+msgid "Information ! Calibration Shapes"
+msgstr "信息！校准形状"
+
+#: CalibrationShapes.py:723 CalibrationShapes.py:725
+msgctxt "@info:label"
+msgid ""
+"\n"
+"Set value :"
+msgstr ""
+"\n"
+"设定值："
+
+#: CalibrationShapes.py:759 CalibrationShapes.py:761
+msgctxt "@info:label"
+msgid "! Modification ! for the extruder definition of : "
+msgstr "！修改！挤出机自定义： "
+
+#: resources/scripts/GCodeDocumentation.py:153
+msgctxt "@info:title"
+msgid "Post Processing"
+msgstr "正在后处理"
+
+#: qml/qml_qt5/CalibrationShapes.qml:90 qml/qml_qt6/CalibrationShapes.qml:113
+msgctxt "@label"
+msgid "Size:"
+msgstr "大小："
