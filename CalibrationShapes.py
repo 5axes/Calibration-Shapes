@@ -99,6 +99,7 @@ from UM.Settings.SettingInstance import SettingInstance
 from cura.Scene.CuraSceneNode import CuraSceneNode
 from UM.Scene.SceneNode import SceneNode
 from UM.Scene.Selection import Selection
+from UM.Scene.SceneNodeSettings import SceneNodeSettings
 from cura.Scene.SliceableObjectDecorator import SliceableObjectDecorator
 from cura.Scene.BuildPlateDecorator import BuildPlateDecorator
 from UM.Operations.AddSceneNodeOperation import AddSceneNodeOperation
@@ -864,7 +865,8 @@ class CalibrationShapes(QObject, Extension):
             new_instance.setProperty("value", mode)
             new_instance.resetState()  # Ensure that the state is not seen as a user state.
             settings.addInstance(new_instance)
-            
+
+        node.setSetting(SceneNodeSettings.AutoDropDown, True)
             
         active_build_plate = application.getMultiBuildPlateModel().activeBuildPlate
         node.addDecorator(BuildPlateDecorator(active_build_plate))
@@ -930,7 +932,9 @@ class CalibrationShapes(QObject, Extension):
         new_instance.setProperty("value", flow)
         new_instance.resetState()  # Ensure that the state is not seen as a user state.
         settings.addInstance(new_instance)
-        
+
+        node.setSetting(SceneNodeSettings.AutoDropDown, True)
+
         active_build_plate = application.getMultiBuildPlateModel().activeBuildPlate
         node.addDecorator(BuildPlateDecorator(active_build_plate))
 
