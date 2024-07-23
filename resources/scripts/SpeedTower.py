@@ -55,6 +55,7 @@ class SpeedTower(Script):
                         "jerk": "Jerk",
                         "junction": "Junction Deviation",
                         "marlinadv": "Marlin Linear",
+                        "marlinadv2": "Marlin M493 K",
                         "rrfpresure": "RepRap Pressure"
                     },
                     "default_value": "acceleration"
@@ -150,6 +151,9 @@ class SpeedTower(Script):
                         if  (Instruction=='marlinadv'):
                             Command = "M900 K{:.3f}".format(float(CurrentValue))
                             lcd_gcode = "M117 Linear Advance K{:.3f}".format(float(CurrentValue))  
+                        if  (Instruction=='marlinadv2'):
+                            Command = "M493 K{:.6f}".format(float(CurrentValue)/1000)
+                            lcd_gcode = "M117 Linear Advance K{:.3f}".format(float(CurrentValue))
                         if  (Instruction=='rrfpresure'):
                             Command = "M572 D0 S{:.3f}".format(float(CurrentValue))
                             lcd_gcode = "M117 Pressure Advance S{:.3f}".format(float(CurrentValue))   
@@ -175,6 +179,9 @@ class SpeedTower(Script):
                                 lcd_gcode = "M117 Junction J{:.3f}".format(float(CurrentValue))
                             if (Instruction=='marlinadv'):
                                 Command = "M900 K{:.3f}".format(float(CurrentValue))
+                                lcd_gcode = "M117 Linear Advance K{:.3f}".format(float(CurrentValue))
+                            if (Instruction=='marlinadv2'):
+                                Command = "M493 K{:.6f}".format(float(CurrentValue)/1000)
                                 lcd_gcode = "M117 Linear Advance K{:.3f}".format(float(CurrentValue))
                             if  (Instruction=='rrfpresure'):
                                 Command = "M572 D0 S{:.3f}".format(float(CurrentValue))
