@@ -1,9 +1,10 @@
 {
-    "name": "Calibration Shapes",
-    "author": "5axes",
-    "version": "2.2.6",
+    "name": "Calibration Shapes Reborn",
+    "author": "Slashee the Cow",
+    "version": "1.0",
     "description": "Adds test parts and simple shapes to the build plate",
-    "api": 7,
-    "supported_sdk_versions": ["7.0.0", "7.1.0", "7.2.0", "7.3.0", "7.4.0", "7.5.0", "7.6.0", "7.7.0", "7.8.0", "7.9.0", "8.0.0", "8.1.0", "8.2.0", "8.3.0", "8.4.0"],
-	"i18n-catalog": "calibration"
+    "minimum_cura_version": "5.0",
+    "api": 8,
+    "supported_sdk_versions": ["8.0.0", "8.1.0", "8.2.0", "8.3.0", "8.4.0", "8.5.0", "8.6.x", "8.7.0", "8.8.0", "8.9.0"],
+	"i18n-catalog": "calibrationshapesreborn"
 }

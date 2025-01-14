@@ -15,9 +15,9 @@ Window
 {
     id: base
 	
-	property variant catalog: UM.I18nCatalog { name: "calibration" }
+	property variant catalog: UM.I18nCatalog { name: "calibrationshapesreborn" }
 
-    title: catalog.i18nc("@title", "Calibration Shapes")
+    title: catalog.i18nc("@title", "Calibration Shapes Reborn")
 
     color: "#fafafa" //Background color of cura: #fafafa
 
