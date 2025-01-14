@@ -1,283 +1,190 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Calibration Shape package.
+# This file is distributed under the same license as the Calibration Shapes Reborn package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Calibration Shape\n"
+"Project-Id-Version: Calibration Shapes Reborn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 10:41+0000\n"
+"POT-Creation-Date: 2025-01-14 13:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: CalibrationShapes.py:184
+#: CalibrationShapesReborn.py:113
 msgctxt "@item:inmenu"
-msgid "Part for calibration"
+msgid "Calibration Shapes"
 msgstr ""
 
-#: CalibrationShapes.py:185
+#: CalibrationShapesReborn.py:114
 msgctxt "@item:inmenu"
 msgid "Add a cube"
 msgstr ""
 
-#: CalibrationShapes.py:186
+#: CalibrationShapesReborn.py:115
 msgctxt "@item:inmenu"
 msgid "Add a cylinder"
 msgstr ""
 
-#: CalibrationShapes.py:187
+#: CalibrationShapesReborn.py:116
 msgctxt "@item:inmenu"
 msgid "Add a sphere"
 msgstr ""
 
-#: CalibrationShapes.py:188
+#: CalibrationShapesReborn.py:117
 msgctxt "@item:inmenu"
 msgid "Add a tube"
 msgstr ""
 
-#: CalibrationShapes.py:190
+#: CalibrationShapesReborn.py:119
 msgctxt "@item:inmenu"
 msgid "Add a Calibration Cube"
 msgstr ""
 
-#: CalibrationShapes.py:191
-msgctxt "@item:inmenu"
-msgid "Add a PLA TempTower"
-msgstr ""
-
-#: CalibrationShapes.py:192
-msgctxt "@item:inmenu"
-msgid "Add a PLA TempTower 190°C"
-msgstr ""
-
-#: CalibrationShapes.py:193
-msgctxt "@item:inmenu"
-msgid "Add a PLA+ TempTower"
-msgstr ""
-
-#: CalibrationShapes.py:194
-msgctxt "@item:inmenu"
-msgid "Add a PETG TempTower"
-msgstr ""
-
-#: CalibrationShapes.py:195
-msgctxt "@item:inmenu"
-msgid "Add an ABS TempTower"
-msgstr ""
-
-#: CalibrationShapes.py:196
-msgctxt "@item:inmenu"
-msgid "Add a PC TempTower"
-msgstr ""
-
-#: CalibrationShapes.py:197
-msgctxt "@item:inmenu"
-msgid "Add a Retract Tower"
-msgstr ""
-
-#: CalibrationShapes.py:198
-msgctxt "@item:inmenu"
-msgid "Add an Acceleration Tower"
-msgstr ""
-
-#: CalibrationShapes.py:200
+#: CalibrationShapesReborn.py:120
 msgctxt "@item:inmenu"
 msgid "Add a Layer Adhesion Test"
 msgstr ""
 
-#: CalibrationShapes.py:201
+#: CalibrationShapesReborn.py:121
 msgctxt "@item:inmenu"
 msgid "Add a Retract Test"
 msgstr ""
 
-#: CalibrationShapes.py:202
+#: CalibrationShapesReborn.py:122
 msgctxt "@item:inmenu"
 msgid "Add a XY Calibration Test"
 msgstr ""
 
-#: CalibrationShapes.py:203
+#: CalibrationShapesReborn.py:123
 msgctxt "@item:inmenu"
 msgid "Add a Dimensional Accuracy Test"
 msgstr ""
 
-#: CalibrationShapes.py:204
+#: CalibrationShapesReborn.py:124
 msgctxt "@item:inmenu"
 msgid "Add a Tolerance Test"
 msgstr ""
 
-#: CalibrationShapes.py:205
+#: CalibrationShapesReborn.py:125
 msgctxt "@item:inmenu"
 msgid "Add a Hole Test"
 msgstr ""
 
-#: CalibrationShapes.py:208
+#: CalibrationShapesReborn.py:128
 msgctxt "@item:inmenu"
 msgid "Add a Bridge Test"
 msgstr ""
 
-#: CalibrationShapes.py:209
+#: CalibrationShapesReborn.py:129
 msgctxt "@item:inmenu"
 msgid "Add a Thin Wall Test"
 msgstr ""
 
-#: CalibrationShapes.py:211
+#: CalibrationShapesReborn.py:131
 msgctxt "@item:inmenu"
 msgid "Add an Overhang Test"
 msgstr ""
 
-#: CalibrationShapes.py:212
-msgctxt "@item:inmenu"
-msgid "Add a FlowTower Test"
-msgstr ""
-
-#: CalibrationShapes.py:213
+#: CalibrationShapesReborn.py:132
 msgctxt "@item:inmenu"
 msgid "Add a Flow Test"
 msgstr ""
 
-#: CalibrationShapes.py:214
-msgctxt "@item:inmenu"
-msgid "Add a Max Flow Test"
-msgstr ""
-
-#: CalibrationShapes.py:215
-msgctxt "@item:inmenu"
-msgid "Add a Multi-Flow Test"
-msgstr ""
-
-#: CalibrationShapes.py:217
+#: CalibrationShapesReborn.py:134
 msgctxt "@item:inmenu"
 msgid "Add a Support Test"
 msgstr ""
 
-#: CalibrationShapes.py:218
+#: CalibrationShapesReborn.py:135
 msgctxt "@item:inmenu"
 msgid "Add a Lithophane Test"
 msgstr ""
 
-#: CalibrationShapes.py:221
+#: CalibrationShapesReborn.py:138
 msgctxt "@item:inmenu"
 msgid "Add a Bed Level Calibration"
 msgstr ""
 
-#: CalibrationShapes.py:222
+#: CalibrationShapesReborn.py:139
 msgctxt "@item:inmenu"
 msgid "Add a Backlash Test"
 msgstr ""
 
-#: CalibrationShapes.py:223
+#: CalibrationShapesReborn.py:140
 msgctxt "@item:inmenu"
 msgid "Add a Linear/Pressure Adv Tower"
 msgstr ""
 
-#: CalibrationShapes.py:225
+#: CalibrationShapesReborn.py:142
 msgctxt "@item:inmenu"
 msgid "Add a Cube bi-color"
 msgstr ""
 
-#: CalibrationShapes.py:226
+#: CalibrationShapesReborn.py:143
 msgctxt "@item:inmenu"
 msgid "Add a Bi-Color Calibration Cube"
 msgstr ""
 
-#: CalibrationShapes.py:227
+#: CalibrationShapesReborn.py:144
 msgctxt "@item:inmenu"
 msgid "Add an Extruder Offset Calibration Part"
 msgstr ""
 
-#: CalibrationShapes.py:230
+#: CalibrationShapesReborn.py:146
 msgctxt "@item:inmenu"
-msgid "Copy Scripts"
+msgid "Set default size"
 msgstr ""
 
-#: CalibrationShapes.py:231
-msgctxt "@item:inmenu"
-msgid "Define default size"
-msgstr ""
-
-#: CalibrationShapes.py:233
-msgctxt "@item:inmenu"
-msgid "Help"
-msgstr ""
-
-#: CalibrationShapes.py:288
+#: CalibrationShapesReborn.py:201
 msgctxt "@info:error"
 msgid "Entered size invalid: "
 msgstr ""
 
-#: CalibrationShapes.py:294
+#: CalibrationShapesReborn.py:207
 msgctxt "@info:error"
 msgid "Size value must be positive !"
 msgstr ""
 
-#: CalibrationShapes.py:357
-msgctxt "@info:message"
-msgid " script(s) copied in :\n"
-msgstr ""
-
-#: CalibrationShapes.py:359
-msgctxt "@info:message"
-msgid ""
-"\n"
-"You must now restart Cura to see the scripts in the postprocessing script "
-"list"
-msgstr ""
-
-#: CalibrationShapes.py:361
-msgctxt "@info"
-msgid "Every script are up to date in :\n"
-msgstr ""
-
-#: CalibrationShapes.py:364 qml/qml_qt6/CalibrationShapes.qml:20
-#: qml/qml_qt5/CalibrationShapes.qml:20
-msgctxt "@title"
-msgid "Calibration Shapes"
-msgstr ""
-
-#: CalibrationShapes.py:443
+#: CalibrationShapesReborn.py:296
 msgctxt "@info:status"
 msgid "Please select one or more models first"
 msgstr ""
 
-#: CalibrationShapes.py:642 CalibrationShapes.py:644 CalibrationShapes.py:659
-#: CalibrationShapes.py:661 CalibrationShapes.py:683 CalibrationShapes.py:685
-#: CalibrationShapes.py:759 CalibrationShapes.py:761
+#: CalibrationShapesReborn.py:422 CalibrationShapesReborn.py:436
+#: CalibrationShapesReborn.py:457 CalibrationShapesReborn.py:524
 msgctxt "@info:label"
 msgid "! Modification ! in the current profile of : "
 msgstr ""
 
-#: CalibrationShapes.py:642 CalibrationShapes.py:644 CalibrationShapes.py:659
-#: CalibrationShapes.py:661 CalibrationShapes.py:683 CalibrationShapes.py:685
-#: CalibrationShapes.py:759 CalibrationShapes.py:761 CalibrationShapes.py:770
-#: CalibrationShapes.py:772
+#: CalibrationShapesReborn.py:422 CalibrationShapesReborn.py:436
+#: CalibrationShapesReborn.py:457 CalibrationShapesReborn.py:524
+#: CalibrationShapesReborn.py:532
 msgctxt "@info:label"
 msgid ""
 "\n"
 "New value :"
 msgstr ""
 
-#: CalibrationShapes.py:642 CalibrationShapes.py:644 CalibrationShapes.py:659
-#: CalibrationShapes.py:661 CalibrationShapes.py:683 CalibrationShapes.py:685
-#: CalibrationShapes.py:759 CalibrationShapes.py:761 CalibrationShapes.py:770
-#: CalibrationShapes.py:772
+#: CalibrationShapesReborn.py:422 CalibrationShapesReborn.py:436
+#: CalibrationShapesReborn.py:457 CalibrationShapesReborn.py:524
+#: CalibrationShapesReborn.py:532
 msgctxt "@info:title"
 msgid "Warning ! Calibration Shapes"
 msgstr ""
 
-#: CalibrationShapes.py:710 CalibrationShapes.py:712 CalibrationShapes.py:734
-#: CalibrationShapes.py:736
+#: CalibrationShapesReborn.py:481 CalibrationShapesReborn.py:502
 msgctxt "@info:label"
 msgid "Individual definition for the calibration part of : "
 msgstr ""
 
-#: CalibrationShapes.py:710 CalibrationShapes.py:712
+#: CalibrationShapesReborn.py:481
 msgctxt "@info:label"
 msgid ""
 "\n"
@@ -285,30 +192,29 @@ msgid ""
 "Set value :"
 msgstr ""
 
-#: CalibrationShapes.py:710 CalibrationShapes.py:712 CalibrationShapes.py:734
-#: CalibrationShapes.py:736
+#: CalibrationShapesReborn.py:481 CalibrationShapesReborn.py:502
 msgctxt "@info:title"
 msgid "Information ! Calibration Shapes"
 msgstr ""
 
-#: CalibrationShapes.py:734 CalibrationShapes.py:736
+#: CalibrationShapesReborn.py:502
 msgctxt "@info:label"
 msgid ""
 "\n"
 "Set value :"
 msgstr ""
 
-#: CalibrationShapes.py:770 CalibrationShapes.py:772
+#: CalibrationShapesReborn.py:532
 msgctxt "@info:label"
 msgid "! Modification ! for the extruder definition of : "
 msgstr ""
 
-#: resources/scripts/GCodeDocumentation.py:154
-msgctxt "@info:title"
-msgid "Post Processing"
+#: qml/CalibrationShapesReborn.qml:20
+msgctxt "@title"
+msgid "Calibration Shapes Reborn"
 msgstr ""
 
-#: qml/qml_qt6/CalibrationShapes.qml:113 qml/qml_qt5/CalibrationShapes.qml:90
+#: qml/CalibrationShapesReborn.qml:113
 msgctxt "@label"
 msgid "Size:"
 msgstr ""
