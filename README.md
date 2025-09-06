@@ -83,12 +83,13 @@ Several postprocessing Scripts are included into the plugin to help the user to 
 
 ### Copy Scripts
 
-These scripts can be copied into the scripts directory via the function **Copy Scripts**.
+**Before Cura 4.9:** These scripts can be copied into the scripts directory via the **Copy Scripts** function.
 
-**Note :** Since Cura 4.9 you don't need to use this function anymore. Has been removed from the menu.
+**After Cura 4.9:** The **Copy Scripts** function has been removed from the menu. Instead, copy the scripts to the `/scripts` directory in the configuration folder (in Cura: *Help > Open Configuration Folder*).
 
-**After you have copied these scripts, you must restart Cura to see the scripts in the postprocessing scripts list.**
+**After you have copying the scripts, Cura must be restarted in order to use them.**
 
+To use the scripts, navigate to *Extentions* > *Post Processing* > *Modify G-Code* and select `Add Script`.
 
 ### Tower generation scripts
 The scripts provided with this plugin must be visible in the Postprocessing scripts list.
