@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Calibration Shape\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 10:41+0000\n"
+"POT-Creation-Date: 2025-09-07 19:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: resources/scripts/GCodeDocumentation.py:154
+msgctxt "@info:title"
+msgid "Post Processing"
+msgstr ""
 
 #: CalibrationShapes.py:184
 msgctxt "@item:inmenu"
@@ -235,8 +240,8 @@ msgctxt "@info"
 msgid "Every script are up to date in :\n"
 msgstr ""
 
-#: CalibrationShapes.py:364 qml/qml_qt6/CalibrationShapes.qml:20
-#: qml/qml_qt5/CalibrationShapes.qml:20
+#: CalibrationShapes.py:364 qml/qml_qt5/CalibrationShapes.qml:20
+#: qml/qml_qt6/CalibrationShapes.qml:20
 msgctxt "@title"
 msgid "Calibration Shapes"
 msgstr ""
@@ -303,12 +308,7 @@ msgctxt "@info:label"
 msgid "! Modification ! for the extruder definition of : "
 msgstr ""
 
-#: resources/scripts/GCodeDocumentation.py:154
-msgctxt "@info:title"
-msgid "Post Processing"
-msgstr ""
-
-#: qml/qml_qt6/CalibrationShapes.qml:113 qml/qml_qt5/CalibrationShapes.qml:90
+#: qml/qml_qt5/CalibrationShapes.qml:90 qml/qml_qt6/CalibrationShapes.qml:113
 msgctxt "@label"
 msgid "Size:"
 msgstr ""
